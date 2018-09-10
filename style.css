@@ -1,0 +1,25 @@
+/*
+Theme Name: Hemingway Rewritten - WordPress.com Child
+Theme URI: https://wordpress.com/themes/hemingway-rewritten/
+Template: hemingway-rewritten-wpcom
+Author: Brent Cunningham
+Author URI: http://educate.london
+Description: Child theme based on Hemingway Rewritten. Hemingway Rewritten is a classic blog theme with a parallax-scrolling header effect and a minimal, elegant design. The large featured header images make this theme great for photographers, or any users who want to share their visuals in a bold way.
+Version: 1.1.4.1532941236
+Updated: 2018-07-30 09:00:36
+
+*/
+
+.site-content { width: 100%; padding: 2em; }
+.main-navigation, .main-navigation ul { width: 100%; max-width: 100%;  }
+.main-navigation { margin-left: 15%; /* todo */  }
+#tertiary, #tertiary .widget-areas  { width: 100%; max-width: 100%;  }
+.site-header-image { min-height: auto; padding: 0 0; }
+
+body, .site-header, .main-navigation, .site-footer, .site-content { background-color: ghostwhite; }
+.main-navigation a, .main-navigation a:link, .main-navigation a:visited, .main-navigation a:hover, .main-navigation a:focus, .main-navigation a:active  { color: black !important; }
+.main-navigation li:hover > a {
+	color: black;
+}
+#tertiary * { color: black !important; }
+#content { border-bottom: solid 1px black; }
